@@ -15,3 +15,8 @@ print(tuple[1])
 print(tuple[1:2])
 print(tuple[:2])
 print("Length is:",len(tuple))
+# Converting
+ls = []
+for i in tuple:
+    ls.append(i)
+print(ls)
