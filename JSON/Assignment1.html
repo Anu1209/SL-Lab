@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patient Details</title>
+
+<script language = "javascript" >
+var object1={"Patient1":"Raj","Doctor" : "Dr.John"};
+document.write("<h1>Doctor details</h1>");
+document.write("<br>");
+document.write("<h3>Patient = "+ object1.Patient1+"</h3>");
+document.write("<h3>Doctor = "+ object1.Doctor+"</h3>");
+
+var object2={"Patient2":"Raj","Doctor" : "Dr.Kris"};
+document.write("<h1>Doctor details</h1>");
+document.write("<br>");
+document.write("<h3>Patient = "+ object2.Patient2+"</h3>");
+document.write("<h3>Doctor = "+ object2.Doctor+"</h3>");
+document.write("<hr>");
+
+document.write("<h1><p>Disease details</p></h1>");
+document.write("<p id="demo"></p>");
+var myobj,x;
+myobj={"name":"John","age":"21","cars":["Ford","BMW","Toyota"]};
+x=myobj.cars[0];
+document.getElementById("demo").innerHTML=x;
+
+</script>
+
+</head>
+</html>
